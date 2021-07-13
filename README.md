@@ -11,3 +11,7 @@
    2.2 Test fails
 
 3. The smallest change in order that our test to pass
+
+4. Remove **duplication**
+   
+   4.1 here the duplication is between the data in the test and the data in the code
