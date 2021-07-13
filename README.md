@@ -9,3 +9,5 @@
    2.1 Run test
    
    2.2 Test fails
+
+3. The smallest change in order that our test to pass
