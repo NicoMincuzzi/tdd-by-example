@@ -17,3 +17,5 @@
    4.1 here the duplication is between the data in the test and the data in the code
 
    4.2 substitute the parameters `amount` and `multiplier` for the constants
+
+5. Find eventual implementation error
