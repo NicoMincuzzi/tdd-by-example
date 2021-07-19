@@ -19,3 +19,7 @@
    4.2 substitute the parameters `amount` and `multiplier` for the constants
 
 5. Find eventual implementation error
+
+6. Use `Value Objects` in order to use objects as value
+  - In this case, you needn't worry about aliasing
+  - should implement `equals()`
