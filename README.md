@@ -23,3 +23,5 @@
 6. Use `Value Objects` in order to use objects as value
   - In this case, you needn't worry about aliasing
   - should implement `equals()`
+
+7. Use ***Triangulation*** and generalize `equals()` and other methods that need it 
