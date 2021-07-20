@@ -30,4 +30,10 @@ public class DollarTest {
         assertFalse(Money.franc(5).equals(Money.franc(6)));
         assertFalse(Money.franc(5).equals(Money.dollar(5)));
     }
+
+    @Test
+    public void testCurrency() {
+        assertEquals("USD", Money.dollar(5).currency());
+        assertEquals("CHF", Money.franc(5).currency());
+    }
 }
