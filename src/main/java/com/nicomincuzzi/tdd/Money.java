@@ -18,7 +18,7 @@ public class Money {
     }
 
     public Money times(int multiplier) {
-        return null;
+        return new Money(this.amount * multiplier, this.currency);
     }
 
     protected String currency() {
