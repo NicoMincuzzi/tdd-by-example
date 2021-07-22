@@ -1,8 +1,6 @@
 package com.nicomincuzzi.tdd;
 
-import java.util.Objects;
-
-abstract class Money {
+public class Money {
     protected int amount;
     protected String currency;
 
@@ -19,7 +17,9 @@ abstract class Money {
         return new Franc(amount, "CHF");
     }
 
-    abstract Money times(int multiplier);
+    public Money times(int multiplier) {
+        return null;
+    }
 
     protected String currency() {
         return currency;
@@ -29,6 +29,11 @@ abstract class Money {
     public boolean equals(Object obj) {
         Money money = (Money) obj;
         return amount == money.amount &&
-                Objects.equals(getClass(), money.getClass());
+                currency().equals(money.currency());
+    }
+
+    @Override
+    public String toString() {
+        return amount + " " + currency;
     }
 }
