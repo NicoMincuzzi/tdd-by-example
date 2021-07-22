@@ -4,12 +4,12 @@ public class Franc extends Money {
 
     public Franc(int amount, String currency) {
         this.amount = amount;
-        this.currency = "CHF";
+        this.currency = currency;
     }
 
     @Override
     public Money times(int multiplier) {
-        return new Franc(amount * multiplier, null);
+        return Money.franc(amount * multiplier);
     }
 
 }
