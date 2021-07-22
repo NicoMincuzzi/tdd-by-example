@@ -4,6 +4,7 @@ import java.util.Objects;
 
 abstract class Money {
     protected int amount;
+    protected String currency;
 
     public static Money dollar(int amount) {
         return new Dollar(amount);
@@ -14,7 +15,10 @@ abstract class Money {
     }
 
     abstract Money times(int multiplier);
-    abstract String currency();
+
+    protected String currency() {
+        return currency;
+    }
 
     @Override
     public boolean equals(Object obj) {
