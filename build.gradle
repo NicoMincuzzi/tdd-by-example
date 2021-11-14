@@ -2,8 +2,11 @@ plugins {
     id 'java'
 }
 
-group 'org.example'
-version '1.0-SNAPSHOT'
+sourceCompatibility = 11
+targetCompatibility = 11
+
+group 'com.github.nicomincuzzi'
+version '0.1.0'
 
 repositories {
     mavenCentral()
