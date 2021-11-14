@@ -74,3 +74,9 @@ The goal is to cover all needed steps to apply TDD by Kent Beck and provide guid
 1. Go backward to go forward: inline factory methods, use currency instance variable
 2. Change Franc.times() and Dollar.times() to return Money, change Money to concrete class and improve equals()
 3. Push up times() implementation
+
+## Chapter 11
+1. Dollar and Franc have only their constructors
+2. A constructor is not reason enough to have a subclass, we want to delete the subclasses
+3. We can replace references to the subclasses with references to the superclass without changing the meaning of the code
+4. Delete duplicated tests
