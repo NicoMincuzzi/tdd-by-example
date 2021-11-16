@@ -80,3 +80,6 @@ The goal is to cover all needed steps to apply TDD by Kent Beck and provide guid
 2. A constructor is not reason enough to have a subclass, we want to delete the subclasses
 3. We can replace references to the subclasses with references to the superclass without changing the meaning of the code
 4. Delete duplicated tests
+
+## Chapter 12
+1. Add a new feature in terms of test and implementation
