@@ -83,3 +83,6 @@ The goal is to cover all needed steps to apply TDD by Kent Beck and provide guid
 
 ## Chapter 12
 1. Add a new feature in terms of test and implementation
+2. How are we going to represent multi-currency arithmetic?
+   2.1 The solution is to create un object that acts like a Money but represents the sum of two Moneys
+   2.2 A metaphor is *expression*, where Money is the atomic form of an expression and operations result in Expressions
