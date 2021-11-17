@@ -36,6 +36,7 @@ public class DollarTest {
 
     @Test
     public void testSimpleAddition() {
+        Bank bank = new Bank();
         Money reduced =  bank.reduce(sum, "USD");
         assertEquals(Money.dollar(10), reduced);
     }
