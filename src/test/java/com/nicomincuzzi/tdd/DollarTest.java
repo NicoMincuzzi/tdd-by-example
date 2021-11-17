@@ -2,6 +2,8 @@ package com.nicomincuzzi.tdd;
 
 import org.junit.jupiter.api.Test;
 
+import java.beans.Expression;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 public class DollarTest {
@@ -36,6 +38,7 @@ public class DollarTest {
 
     @Test
     public void testSimpleAddition() {
+        Expression sum = five.plus(five);
         Bank bank = new Bank();
         Money reduced =  bank.reduce(sum, "USD");
         assertEquals(Money.dollar(10), reduced);
