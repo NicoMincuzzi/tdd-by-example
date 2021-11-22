@@ -86,3 +86,8 @@ The goal is to cover all needed steps to apply TDD by Kent Beck and provide guid
 2. How are we going to represent multi-currency arithmetic?
    2.1 The solution is to create un object that acts like a Money but represents the sum of two Moneys
    2.2 A metaphor is *expression*, where Money is the atomic form of an expression and operations result in Expressions
+
+## Chapter 13
+1. Remove data duplication
+   1.1 `Money.plus()` needs to return a real `Expression`(`Sum`, not just a `Money`)
+   1.2 The sum of two Moneys should be a `Sum` 
