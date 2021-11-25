@@ -77,11 +77,6 @@ public class DollarTest {
     }
 
     @Test
-    public void testArrayEquals() {
-        assertEquals(new Object[]{"abc"}, new Object[]{"abc"});
-    }
-
-    @Test
     public void testIdentityRate() {
         assertEquals(1, new Bank().rate("USD", "USD"));
     }
