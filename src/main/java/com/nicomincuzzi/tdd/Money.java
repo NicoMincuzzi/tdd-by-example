@@ -18,7 +18,7 @@ public class Money implements Expression {
     }
 
     public Expression times(int multiplier) {
-        return new Money(this.amount * multiplier, this.currency);
+        return new Money(amount * multiplier, currency);
     }
 
     protected String currency() {
