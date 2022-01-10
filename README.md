@@ -1,5 +1,5 @@
 # TDD By Example
-The goal is to cover all needed steps to apply TDD by Kent Beck and provide guide lines for the developers.
+The goal is to cover all needed steps to apply TDD how suggest by Kent Beck in [Test Driven Development: By Example](https://www.amazon.com/Test-Driven-Development-Kent-Beck/dp/0321146530) and provide guide lines for the developers.
 
 ## Chapter 1
 1. Write Unit Test
